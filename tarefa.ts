@@ -1,39 +1,41 @@
-// 1. Classe e Objeto Crie uma classe Pessoacom os atributos nomee idade. Crie um objeto e exiba seus atributos.
-class Aluno {
-  constructor(
-    public nome: string,
-    public idade: number,
-    public altura: number,
-    public peso: number,
-  ) {}
+// 1. Classe e Objeto Crie uma classe Pessoa com os atributos nome e idade. Crie um objeto e exiba seus atributos.
+class Pessoa{
+    nome : string;
+    idade : number;
+
+    constructor(nome: string, idade: number){
+        this.nome = nome
+        this.idade = idade
+    }
 }
 
-const aluno = new Aluno("Maria", 20, 1.78, 65.89);
+const pessoa = new Pessoa("Eduardo Osga", 15);
 
-console.log(aluno.nome);
-console.log(aluno.idade);
-console.log(aluno.altura);
-console.log(aluno.peso);
+console.log(pessoa);
 
+
+  
 //2. Construtor Crie uma classe Produtocom os atributos nome, precoe estoque, inicializados por um construtor. Crie dois produtos diferentes e exiba seus dados.
 
 class Produto {
-    nome: string;
+
+    nome : string;
     preco: number;
     estoque: number;
 
-    constructor(nome: string, preco: number, estoque: number) {
+    constructor( nome: string, preco: number, estoque:number){
+
         this.nome = nome;
         this.preco = preco;
         this.estoque = estoque;
     }
 }
 
-const produto1 = new Produto("Notebook", 3500, 10);
-const produto2 = new Produto("Mouse", 80, 25);
+const Produto1 = new Produto(" Banana", 5.99, 4);
+const Produto2 = new Produto("Maça", 6.00, 6);
 
-console.log(produto1);
-console.log(produto2);
+console.log(Produto1);
+console.log(Produto2);
 
 //3. Métodos Crie uma classe Alunocom os atributos nome nota. Implemente o método aprovado(), que deve retornar truequando a nota for maior ou igual a 6.
 
@@ -53,11 +55,7 @@ class Aluno {
 
 const aluno = new Aluno("João", 8);
 
-if (aluno.aprovado()) {
-    console.log(`${aluno.nome} passou!`);
-} else {
-    console.log(`${aluno.nome} não passou.`);
-}
+console.log(aluno.aprovado());
 
 //this / self Crie uma classe Retangulo com os atributos largura e altura. Utilize this (ou self) para inicializá-los no construtor e implemente um método calcularPerimetro().
 
