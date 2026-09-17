@@ -9,7 +9,7 @@ class Pessoa{
     }
 }
 
-const pessoa = new Pessoa("Eduardo Osga", 15);
+const pessoa = new Pessoa("Pedro Henrique", 15);
 
 console.log(pessoa);
 
