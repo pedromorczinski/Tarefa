@@ -6,3 +6,17 @@ crud-firestore-alunos/
 ├── .gitignore
 ├── package.json
 └── README.md
+
+{
+  "type": "service_account",
+  "project_id": "tarefa-cepk",
+  "private_key_id": "b949eb8bd44b797c41c7ce10f0cff6a72801dd20",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDtsRYTaF9ftAty\n5pp+H6mBFWWnPVnOv0jC8ZZCmz0VJ5lKAcp1+0d2AIdFw4jdmRGlLlEFdZTFMy9e\nEU/jcFs0VvWzHd0WevCOw3hzgrhFr1MS4rsVcjPYTAQgVmtaZ5Zka9qD0CHDgLGV\neyOJxUkeCkcrJaHAPdAxU6JQh/VmhDULqa8jAAyltZIreL1w7K7yn4DvvAh35RXT\nWBQB4ZAimiH6QAzSAqmF2zS9/NKThBPHxZ9MiG4VJWLJX908dI8J6J7I/bMYqE2K\nZpoVSUCrVfu5ML4F9SHMsXDwFsyfgSiYXuHh5QuGgpOFeQRTdF2UJrLrBdiw+mdC\nvqaJgBdNAgMBAAECggEABvhc8d0V2Dwdjn/bAvInFIJ4nygKP1OrrLp3PLp0Vu+j\ngUs+e9Q5EGmhOIyshvcLUJaO81kzL3nknIkRwyp9z4dHSuUyy7XM4nAyqDcqnocu\n0/cdzloG0YPKe9pHk/iarT+JF7ly7AU/mpG9r+IUVqhYKu3pFDab1CkkMYwIcw+Z\n+Ov4w3BfuJyIDP6F/CL1BNpeX0EVU7zfzplpUICOtXPua5ckkZdSVfZ5bUp2+nez\nOOf8xvisqyvak0dsWvhXiBvD8HChcz+YEDDHq3R3GbAgga+clToFn34g+gGJT/4A\n29GhiyffIp6/278KwizPaMCj+KsOKNU20l84h67ZkQKBgQD3kUZX2Kc2a2eqpDBE\nYQtFFxIu3YBVkqnocKzQMKplYUc95B/+h+CTlMzL45sJNDHia30AYEJUFSjtfla/\n41RB89odB9VZvAMSdQyErpKr74f6AIxe1u//ZyPGHrheOqu79/53OPmoq0UnoECC\n0FlJtf0mK16UWTliSX0btZbCSQKBgQD1ybKS7yvbwfxLRjO3vIX9veJda/nF7GAR\nxVh9IS2uZ+bPouprTYtlGEQx9YD80jW0sAUr/mVz9PMDGHY8qnHHVOPw7p2yNEzf\npNX2Mx9LvQo2UXVKwhDPVzjuF1hC5fUJR0NaA+ka52vkHVBTtGe0TmdwSkuT1lxt\nnijYekHs5QKBgQDBu+gGWr8P8SEhAnfbKu481P8fuaryTGG2SmaSTWMrDuNHZbw7\n3W07UJirfaQXocbf3ynlH28Iib6Li/CrHWUUb5XiXfzxyhXFXd+7/Tk+X6ZTWBaB\nKUaK4dW29tdkthkqcbmq5uVIvy7RAbE6LX2SF17RfeL3yJMFfWjwRDyEMQKBgQCn\nI4+Rp561hAai0Yxdx49+a1/Bk6l4VDNIImD4RlWgIfus+uZaLZM7HfNR3dbnFbN7\nua7qqcYnwkx2sG3G90kD+dA/iKQoCLS16IuvLjh78oM9SMtwGOQBexi1n55fb6zf\nsFw2nC4qI3EU4HI9WZKj5CUnEP6v+7dCu6ie/RRTmQKBgQDgroc03tQ9ryBtM07h\niCGIjptN+kCmlLnpssDli/6IJWhOcdXAMIhrXBzRsWspxQ9EXo6nHKOo5uFa3uKa\nX4jyCXcxWr8jph2rk9GrlB8EjxyTYBZtZ5Qcntz10YlSXjSXC6JlKHglvnIoGeUa\nLKjxjNzP9NA/IswGewhBd8lpEA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@tarefa-cepk.iam.gserviceaccount.com",
+  "client_id": "112092139665408389733",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40tarefa-cepk.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
